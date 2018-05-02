@@ -24,7 +24,8 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:text="Speak" />
+        android:text="Speak"
+        android:onClick="TTS"/>
 
     <Button
         android:id="@+id/bstop"
@@ -34,5 +35,6 @@
         android:layout_alignStart="@+id/bspeak"
         android:layout_below="@+id/bspeak"
         android:layout_marginTop="54dp"
-        android:text="Stop" />
+        android:text="Stop"
+        android:onClick="TTS"/>
 </RelativeLayout>
