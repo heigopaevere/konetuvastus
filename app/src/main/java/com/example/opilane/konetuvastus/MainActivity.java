@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         toSpeech = new TextToSpeech(MainActivity.this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
-                if (status == TextToSpeech.SUCCESS) ;
+                if (status == TextToSpeech.SUCCESS)
                 {
                     result = toSpeech.setLanguage(Locale.UK);
                 }
